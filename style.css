@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+}
+
+.myPic{
+    background: #1A1B21;
+    width: 315px;
+    height: 315px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px; 
+    padding-bottom: 0px; 
+}
+
+.myInfo {
+   background: #1A1B21;
+   margin-top: -28px; 
+   padding-top: 21px; 
+}
+.myName{
+    color: #FFFFFF;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+margin-bottom: 6px; 
+}
+
+.myDesignation{
+    margin-top: 6px;
+    margin-bottom: 0px;
+color: #F3BF99;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+}
+.myWebsite{
+text-align: center;
+margin-top: 8px;
+margin-bottom: 0px;
+}
+
+.myWebsite a{
+    color: #F5F5F5;
+    text-decoration: none;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+button {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+border: none;
+gap:8px;
+border-radius: 6px;
+}
+.emailButton{
+background: #FFFFFF;
+font-size: 14px;
+}
+.linkedinButton{
+background: #5093E2;
+color: #FFFFFF;
+font-weight: 500;
+font-size: 14px; 
+}
+.linkedinButton a{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;   
+}
+
+.linkedinButton a img {
+    padding-right: 8px;
+}
+
+.main{
+    width: 247px;
+    margin-top: 36px;
+    margin-left: 36px;
+    margin-right: 33px;
+    margin-bottom: 0px;
+    padding-bottom: 24px; 
+}
+
+.main h3{
+color: #F5F5F5;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+margin-bottom: 0px;
+}
+.main p{
+    margin-top: 5px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+footer {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    gap: 24px;
+}
+
